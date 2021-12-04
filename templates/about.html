@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+
+{% block content %}
+{{Region|safe}}
+{{VacTotal|safe}}
+{{VacType|safe}}
+{{fullyVac|safe}}
+{{VacAvg|safe}}
+
+<section style="width:100%; float:left; height:100vh; position: relative">
+<div style="position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); color:black; ">
+<h4>結論</h4></br></br>
+<ul>
+<li>中國大陸作為總疫苗施打數最多的國家，其施打的疫苗種類（品牌）也最多，多達8種。</li>
+<li>相對地，美國的總施打劑量為全球第三名，但是施打的疫苗種類呈現少數，僅施打三類疫苗。</li>
+<li>多數國家接種的疫苗種類數量為4種，較少國家施打8種以上的疫苗。</li>
+<li>此外，接種疫苗的數量較多者，多分佈在AMRO（美洲）和 WPRO（西太平洋）區域，而AFRO（非洲）和 EURO（歐洲）區域的接種疫苗種類數量則較少。</li>
+</ul>
+</div>
+</section>
+{% endblock content %}
+
+
