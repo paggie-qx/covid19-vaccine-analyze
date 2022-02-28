@@ -6,4 +6,4 @@
 
 資料分析的python程式碼：[Paggie's homework](https://deepnote.com/@-1dd4/-zUykMmm9Q8OTxgKNik5jJA)
 
-網頁demo: https://paggiedjango.appspot.com
+<!-- 網頁demo: https://paggiedjango.appspot.com -->
